@@ -1,18 +1,29 @@
 {
-  "name": "exercicio_clone",
+  "name": "clone_disneyplus",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rebekanl/clone_disneyplus.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebekanl/clone_disneyplus/issues"
+  },
+  "homepage": "https://github.com/Rebekanl/clone_disneyplus#readme",
   "description": "",
   "devDependencies": {
-    "gulp": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^6.0.1",
-    "sass": "^1.97.3"
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.97.2"
   }
 }

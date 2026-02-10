@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clone website</title>
+    <title>The devil wears prada - clone.crave</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/128px-Crave_2018_logo.svg.png" alt="Crave">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Subscribe</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h3 class="title">
+                The Devil Wears Prada
+            </h3>
+            <p>
+                <spam class="text">2006 • 1h 49m</spam>
+                <br>
+                <spam  class= "text">A young woman takes a job as a second assistant<br> to a powerful fashion maven.</a>
+                <br>
+                <spam class="text">
+                    Genre(s): ComedyDrama <br>
+                    Language(s): English, French
+                </spam>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <button class="button">Sign in / Subscribe</button>
+                </li>
+            </ul>
+            <select>
+                <option>English</option>
+                <option selected>French</option>
+            </select><br>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">You might like</button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/images.jpeg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/images-2.jpeg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/images-3.jpeg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/images - cópia.jpeg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/images-2 - cópia 2.jpeg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/images-3 - cópia.jpeg" alt="spidey">
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/740938.jpeg" alt="The devil wears prada">
+        <div class="image-text-section__text_container">
+            <h2 class="title"> About</h2>
+            <p class="text--big">
+                Andy is a recent college graduate with big dreams. Upon landing a job at prestigious Runway magazine, she finds herself the assistant to diabolical editor Miranda Priestly. Andy questions her ability to survive her grim tour as Miranda's whipping girl without getting scorched.
+            </p><br>
+            <h3 class="text--big">Genres</h3>
+            <p class="text--big">Comedy, Drama</p>
+            <h3 class="text--big">Maturity Rating</h3>
+            <p class="text--big">PG, 8+</p>
+            <h3 class="text--big">Director</h3>
+            <p class="text--big">David Frankel</p>
+            <h3 class="text--big">Producers</h3>
+            <p class="text--big">Wendy Finerman, John Bernard</p>
+            <h3 class="text--big">Cast</h3>
+            <p class="text--big">Anne HathawayMeryl StreepEmily BluntStanley TucciSimon BakerAdrian GrenierTracie ThomsRich SommerDaniel SunjataDavid Marshall Grant</p>
+            <h3 class="text--big">Writer</h3>
+            <p class="text--big">Aline Brosh Mckenna</p>
+            <h3 class="text--big">Executive Producers</h3>
+            <p class="text--big">Joseph M. Caracciolo Jr., Karen Rosenfelt</p>
+            <h3 class="text--big">Creator</h3>
+            <p class="text--big">Laurwn Weisberger</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/128px-Crave_2018_logo.svg.png" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option selected>English</option>
+                            <option >French</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e condicoes de uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Protecao de dados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Anuncios</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Dispositivos</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ©HBO Content and Home Box Office, Inc. used under license.
+            </p>
+            <p class="text--small">
+                ©Bell Media Inc. All Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script src="./dist/js/main.js"></script>
 </body>
+
 </html>
